@@ -50,11 +50,11 @@
                here in Lighspot we help you name everything, just give us a hint <br> and watch the magic happening!  
             </p>
 
-            <button class="button"><a>Understand how it works.</a> </button></a>
+            <button class="button" onclick="SlideToHow()"><a>Understand how it works.</a> </button></a>
         </section>
 
 
-        <section class="how">
+        <section class="how" id="how">
 
             <div class="howbox">
                 <p>Sort a creative artistic name</p>
@@ -69,7 +69,7 @@
                 
                 <div id="random-subject"></div>
                 
-                <button class="button" id="generate">Generate a random Name</button>
+                <button class="button" id="generatesubject">Generate a random Subject</button>
             </div>
 
             <div class="howbox">
@@ -77,12 +77,16 @@
                 
                 <div id="random-pet"></div>
                 
-                <button class="button" id="generate">Generate a random Name</button>
+                <button class="button" id="generatepet">Generate a random Pet</button>
             </div>
-            
-        </section>
 
+                <button class="button" id="randomall">Random all!</button>
+            </section>
+           
+    
     </section>
+
+
     
     <script src="./script.js"></script>
 </body>

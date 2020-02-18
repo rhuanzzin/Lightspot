@@ -5,6 +5,7 @@
     outline: none;
     list-style: none;
     font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
 }
 a{
     color: black;
@@ -52,6 +53,7 @@ button{
 
 .li > a:hover{
     color: deepskyblue;
+    
 }
 
 
@@ -113,26 +115,45 @@ button{
 .how{
     display: flex;
     justify-content: center;
-    height: 400px;
-    background-color: rgb(253, 253, 253);
+    background-image: linear-gradient(to bottom right, deepskyblue, dodgerblue);
     text-align: center ;
+    padding: 50px;
 }
 
-.how > p {
-    padding: 30px;
-    font-size: 15pt;
-    color: rgba(0,0,0,0.8);
-}
 
 .howbox{
-    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
     margin: 50px;
 }
 
-#random-name{
+.howbox > p {
+    font-size: 12pt;
+    color:white;
+}
+
+#generatename, #generatesubject, #generatepet, #randomall{
+
+    background-color: white;
+    color: rgba(0,0,0,0.8);
+    height: 50px;
+    width: 250px;
+    align-self: center;
+    text-align: center;
+}
+#random-name, #random-subject, #random-pet{
     animation-duration: 0.3s;
-    color: rgb(50, 213, 235);
+    color: rgba(0,0,40,0.8);
     font-size: 45pt;
     font-weight: 400;
-    margin: 0 0 50px 0;
+    margin: 50px 0 ;
+}
+
+#randomall{
+    align-self: center;
+    height: 50px;
 }
