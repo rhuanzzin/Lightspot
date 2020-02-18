@@ -9,6 +9,13 @@
 a{
     color: black;
 }
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Lato' sans-serif;
+    font-weight: bold;
+}
 .flex{
     display: flex;
 }
@@ -53,6 +60,14 @@ a{
     height: 3000px;
 }
 /* ---------------------------banner---------------------------- */
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0 0 150px 0;    
+}
+
 .banneralign{
     margin: 100px 0 0 0;
     display: flex;
@@ -75,3 +90,49 @@ a{
     color: dimgrey;
 }
 
+.button{
+    background-color: deepskyblue;
+    font-size: 12pt;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+    color: white;
+}
+.button > a{
+    color: white;
+}
+
+.button:hover{
+    transition: 0.3s;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2);
+}
+/* ----------------------------------how-------------------- */
+
+
+.how{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-color: rgb(253, 253, 253);
+    text-align: center ;
+}
+
+.how > p {
+    padding: 30px;
+    font-size: 15pt;
+    color: rgba(0,0,0,0.8);
+}
+
+.howbox{
+    min-width: 200px;
+    margin: 50px;
+}
+
+#random-name{
+    animation-duration: 0.3s;
+    color: rgb(50, 213, 235);
+    font-size: 45pt;
+    font-weight: 400;
+    margin: 0 0 50px 0;
+}

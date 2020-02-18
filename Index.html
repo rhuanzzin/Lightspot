@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lighspot</title>
     <link rel="stylesheet" href="./src/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,500,600,700,800,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -29,26 +29,61 @@
 
     <section class="main">
 
-        <div class="banneralign">
+        <section class="banner">
 
-            <h1 class="textbanner">
-                Be briliant with us, 
-            </h1>
-            <h1 class="textbanner blue">
-                generate ideas!
-            </h1>
-        </div>
+            <div class="banneralign">
+
+                <h1 class="textbanner">
+                    Be briliant with us, 
+                </h1>
+                <h1 class="textbanner blue">
+                    generate ideas!
+                </h1>
+
+            </div>
+
             <h1 class="textbanner">
                 Make dreams come true. 
             </h1>
-            <h2 class="subtextbanner">
-               here in Lighspot we help you name everything, just give us a hint <br> and watch the magic happening!  
-            </h2>
-        <section class="banner">
 
+            <p class="subtextbanner">
+               here in Lighspot we help you name everything, just give us a hint <br> and watch the magic happening!  
+            </p>
+
+            <button class="button"><a>Understand how it works.</a> </button></a>
         </section>
 
 
+        <section class="how">
+
+            <div class="howbox">
+                <p>Sort a creative artistic name</p>
+                
+                <div id="random-name"></div>
+                
+                <button class="button" id="generatename">Generate a random Name</button>
+            </div>
+
+            <div class="howbox">
+                <p>Whats the subject that you want focus</p>
+                
+                <div id="random-subject"></div>
+                
+                <button class="button" id="generate">Generate a random Name</button>
+            </div>
+
+            <div class="howbox">
+                <p>and your favorite pet! (thats important)</p>
+                
+                <div id="random-pet"></div>
+                
+                <button class="button" id="generate">Generate a random Name</button>
+            </div>
+            
+        </section>
+
     </section>
+    
+    <script src="./script.js"></script>
 </body>
 </html>
